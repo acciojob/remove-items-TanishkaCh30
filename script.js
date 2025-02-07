@@ -7,7 +7,7 @@ let select = document.getElementById("colorSelect");
 function deleteItems(){
 
 	let selectedOption = select.selectedIndex;
-	if(selectedOption){
+	if(selectedOption!==-1){
 		select.remove(selectedOption);
 	}
 }
